@@ -5,7 +5,13 @@
 # p new_address
 
 # put String == puts
-puts "Hello World"
+# puts "Hello World"
 
 greeting = "hello world"
 p greeting
+
+def say_hello()
+  puts "HELLO WORLD"
+end
+
+say_hello()
