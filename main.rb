@@ -7,11 +7,20 @@
 # put String == puts
 # puts "Hello World"
 
-greeting = "hello world"
-p greeting
+# greeting = "hello world"
+# p greeting
 
-def say_hello()
-  puts "HELLO WORLD"
-end
+# def say_hello()
+#   puts "HELLO WORLD"
+# end
 
-say_hello()
+# say_hello()
+
+# String concatenation
+first_name = "sung"
+last_name = "lee"
+
+# puts first_name + " " +  last_name
+
+#  String interpolation
+puts "My first name is #{first_name}, and my last name is #{last_name}"
