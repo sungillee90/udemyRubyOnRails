@@ -34,11 +34,21 @@ puts "Thank you, you said your first name is #{first_name}"
 
 # puts input.to_i * 2
 
-puts "Enter your first name"
-first_name = gets.chomp
-puts "Enter your last name"
-last_name = gets.chomp
-full_name = first_name + " " + last_name
-puts "Your full name is #{full_name}"
-puts "Your full name reversed is #{full_name.reverse}"
-puts "Your name has #{full_name.length - 1} characters in it"
+# puts "Enter your first name"
+# first_name = gets.chomp
+# puts "Enter your last name"
+# last_name = gets.chomp
+# full_name = first_name + " " + last_name
+# puts "Your full name is #{full_name}"
+# puts "Your full name reversed is #{full_name.reverse}"
+# puts "Your name has #{full_name.length - 1} characters in it"
+
+
+puts "Enter your age in 2020"
+age = gets.chomp
+puts "This is your new age in 2021!"
+puts age.to_i
+age_new = age.to_i + 1
+
+puts "Your age in 2020 is #{age}"
+puts "Your new age in 2021 is #{age_new}"
