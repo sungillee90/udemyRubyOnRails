@@ -63,3 +63,9 @@ puts "5" * 2
 
 puts 20.times{print "-"}
 puts "-" * 20
+
+20.times {puts "hi"}
+20.times {puts rand(10)} # Generate random number between 0 - 9
+# 20.times {puts rand(11)} 
+x = "5".to_f
+puts x
